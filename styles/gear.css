@@ -204,6 +204,40 @@
     cursor: pointer;
 }
 
+/* footer styles */
+
+.footer-container{
+    padding: 50px 589px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #0A0826;
+    max-width: 100%;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    color: #FFFF;
+    margin-bottom: 10px;
+}
+
+.copy, .right{
+    font-size: 0.87rem;
+    color: #D9DBE1;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-container i{
+    padding: 10px;
+    margin: 8px 10px;
+    border: 0px solid #D9DBE1;
+    border-radius: 50%;
+    background-color: #696977;
+    color: #FFFF;
+}
+
 
 
 
@@ -280,6 +314,16 @@
 
     .products-content{
         text-align: center;
+    }
+
+    /* footer */
+
+    .footer-container{
+        padding: 50px 70px;
+    }
+
+    .footer{
+        margin-top: 20px;
     }
 
 }
