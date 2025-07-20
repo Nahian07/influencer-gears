@@ -23,7 +23,9 @@
     align-items: center;
 }
 
-.navbar, .banner-container{
+.navbar, 
+.banner-container, 
+.advertise{
     max-width: 1380px;
     margin: 0 auto;
 }
@@ -98,6 +100,22 @@
     width: 100%;
 }
 
+/* advertise in banner styles */
+
+.advertise{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 20px;
+    border-top: 3px solid rgba(192, 204, 218, 0.1);
+    border-bottom: 3px solid rgba(192, 204, 218, 0.1);
+}
+
+.advertise-logo{
+    width: 100%;
+}
+
 
 
 
@@ -141,6 +159,13 @@
 
     .banner-title{
         font-size: 1.75rem;
+    }
+
+    /* advertise */
+
+    .advertise{
+        gap: 25px;
+        padding: 50px 0px;
     }
 
 }
